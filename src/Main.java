@@ -14,8 +14,6 @@ public class Main {
         System.out.println("right now variable a = " + a++);
         System.out.println("after increase variable a = " + a);
         System.out.println("type long + type short = " + qq + bb); // my first comment
-        String word = "Almaty";
-        String phrase = "Wow, it's amazing, right now i learning my first program language";
         System.out.println(phrase);
         System.out.println("a + b = " + a+b);
         System.out.println(word + a);
@@ -30,5 +28,11 @@ public class Main {
         String str = "5421";
         int xxx = Integer.parseInt(str);
         System.out.println(xxx);
+        // Работа со строками
+        String str1 = "My NAME IS Tima, i live in THAT city...";
+        int xx = str1.length();
+        System.out.println("length variable str1: " + xx);
+        System.out.println(str1.toLowerCase()); // нижний регистр
+        System.out.println(str1.toUpperCase()); // верхний регистр
     }
 }
