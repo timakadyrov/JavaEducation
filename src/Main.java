@@ -14,8 +14,6 @@ public class Main {
         System.out.println("right now variable a = " + a++);
         System.out.println("after increase variable a = " + a);
         System.out.println("type long + type short = " + qq + bb); // my first comment
-        String word = "Almaty";
-        String phrase = "Wow, it's amazing, right now i learning my first program language";
         System.out.println(phrase);
         System.out.println("a + b = " + a+b);
         System.out.println(word + a);
