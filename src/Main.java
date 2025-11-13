@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Your number is = " + x + " " + "Your text is = " + text);
         // Преобразование строки в число
         String str = "5421";
-        int xx = Integer.parseInt(str);
-        System.out.println(xx);
+        int xxx = Integer.parseInt(str);
+        System.out.println(xxx);
     }
 }
