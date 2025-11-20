@@ -1,38 +1,42 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int a = 312;
-        int b = 90;
-        long qq = 878278428374728L;
-        short bb = 32767;
-        byte num = 127; // -128 до 127
-        String word = "Almaty";
-        String phrase = "Wow, it's amazing, right now i learning my first program language";
-        System.out.println(num);
-        // Конкатенация
-        System.out.println("right now variable a = " + a++);
-        System.out.println("after increase variable a = " + a);
-        System.out.println("type long + type short = " + qq + bb); // my first comment
-        System.out.println(phrase);
-        System.out.println("a + b = " + a+b);
-        System.out.println(word + a);
-        // Ввод с клавиатуры
-        System.out.print("Enter your number please: ");
-        int x = scanner.nextInt();
-        scanner.nextLine();
-        System.out.print("Enter your text please: ");
-        String text = scanner.nextLine();
-        System.out.println("Your number is = " + x + " " + "Your text is = " + text);
-        // Преобразование строки в число
-        String str = "5421";
-        int xxx = Integer.parseInt(str);
-        System.out.println(xxx);
-        // Работа со строками
-        String str1 = "My NAME IS Tima, i live in THAT city...";
-        int xx = str1.length();
-        System.out.println("length variable str1: " + xx);
-        System.out.println(str1.toLowerCase()); // нижний регистр
-        System.out.println(str1.toUpperCase()); // верхний регистр
+//        Scanner scanner = new Scanner(System.in);
+        // if-else boolean
+//        System.out.println("Есть ли у вас водительское удостоверение? true/false");
+//        boolean hasDriverLicense = scanner.nextBoolean();
+//        System.out.println("Есть ли у вас своя машина? true/false");
+//        boolean hasCar = scanner.nextBoolean();
+//
+//        if (hasDriverLicense) {
+//            System.out.println("Может водить машину");
+//        }
+//        if (!hasDriverLicense){
+//            System.out.println("Нельзя водить машину");
+//        }
+//        if (hasDriverLicense && hasCar) {
+//            System.out.println("может ехать на своей машине");
+//        }
+//        if (hasDriverLicense && !hasCar) {
+//            System.out.println("Rental car");
+//        }
+        // Сравнение строк
+//        String s1 = "Hello World";
+//        String s2 = "Hello World"; // s2 ссылается на объект переменной s1
+//        String s1s = "HELLO WORLD";
+//        System.out.println(s1==s2);
+//        String sx = s1.toUpperCase();
+//        System.out.println(s1==sx);
+//        System.out.println(s1s==sx); // toUpperCase создает новый объект
+//
+//        String t = "Hello World";
+//        String x = new String("Hello World"); // создается новый объект
+//        System.out.println(t==x);
+//
+//        System.out.println("s1s==x?" + s1s.equals(sx)); // сравнивает значение которые хранятся в объектах
+//        System.out.println("2. s1s==x?" + s1s.equalsIgnoreCase(sx)); // сравнение без учета регистра
+
+
+
+        }
     }
-}
